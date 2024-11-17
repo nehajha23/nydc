@@ -1,0 +1,237 @@
+ #b1 {
+     background-image: url(../images/NYDC_WEBSITE_FINAL_WBURGERMENU-01.png);
+
+     height: 130px;
+     width: auto;
+
+     background-size: cover;
+
+
+
+ }
+
+ .logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+
+     /* width: auto;
+     height: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     display: block; */
+
+ }
+
+ .l1 {
+     width: 395px;
+     height: auto;
+
+ }
+
+ .navbar-toggler {
+     position: absolute;
+     right: 0px;
+ }
+
+ .navbar-expand-lg .navbar-toggler {
+     display: block;
+ }
+
+ #b2 {
+     /* background-image: url(../images/NYDC_WEBSITE_FINAL_WBURGERMENU-03.png); */
+     width: 100%;
+     height: auto;
+     background-size: cover;
+ }
+
+ .bannr {
+     width: 300px;
+     height: 200px;
+ }
+
+ @font-face {
+     font-family: f;
+     src: url(../font/NEWYORK.otf);
+ }
+
+ h1 {
+     font-family: f;
+     text-align: center;
+ }
+
+ @font-face {
+     font-family: F1;
+     src: url(../font/SINGERICA.ttf);
+ }
+
+ h2 {
+     font-family: F1;
+     text-align: center;
+
+ }
+
+ @font-face {
+     font-family: F2;
+     src: url(../font/Poppins-Regular.ttf);
+ }
+
+ .p1 {
+     font-family: F2;
+     text-align: center;
+     padding-right: 20%;
+     padding-left: 20%;
+ }
+
+ @font-face {
+     font-family: F6;
+     src: url(../font/Poppins-Regular.ttf);
+ }
+
+ .bt {
+     font-family: F6;
+     text-align: center;
+
+ }
+
+ /* .buttons{
+
+ } */
+
+ @font-face {
+     font-family: F3;
+     src: url(../font/NEWYORK.otf);
+ }
+
+ h5 {
+     font-family: F3;
+     text-align: center;
+ }
+
+ #img1 {
+     width: auto;
+     height: 488px;
+ }
+
+ @font-face {
+     font-family: F4;
+     src: url(../font/Poppins-Regular.ttf);
+ }
+
+ .card-title {
+     font-size: 30px;
+     padding: 20px;
+     text-align: center;
+
+ }
+
+ .card-text {
+     padding: 20px;
+     font-size: 18px;
+     text-align: center;
+
+ }
+
+ .card-img-top1 {
+     width: auto;
+     height: 282px;
+ }
+
+ @font-face {
+     font-family: F5;
+     src: url(../font/NEWYORK.otf);
+ }
+
+ h4 {
+     font-family: F5;
+     text-align: center;
+ }
+
+ .Services {
+     justify-content: center;
+
+ }
+
+ .t1 {
+     width: auto;
+     height: 50px;
+ }
+
+
+ /* @media only screen and (max-width: 500px) {
+     .text-h1 br {
+         display: none;
+     }
+    */
+ .card-title2 {
+     font-size: 30px;
+     padding: 20px;
+     text-align: center;
+
+
+ }
+
+ .card-text2 {
+     padding: 20px;
+     font-size: 18px;
+     text-align: center;
+ }
+
+ .row-ftr {
+
+     padding: 30px;
+ }
+
+ #fotr {
+     background-image: url(../images/NYDC_WEBSITE_FINAL_WBURGERMENU-01.png);
+     width: 100%;
+     height: 230px;
+
+ }
+
+ .ft {
+     width: auto;
+     height: 130px;
+ }
+
+
+
+ .lists li {
+     color: #ffffff;
+ }
+
+ .lists {
+     list-style-type: none;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+
+ }
+
+ .img-ftr {
+     text-align: right;
+ }
+
+ .col-ftr {
+     margin: auto;
+ }
+
+ @media only screen and (max-width:480px) {
+     .lists {
+         display: block;
+         text-align: center;
+     }
+
+     .img-ftr {
+         text-align: center;
+     }
+
+
+     .ft {
+         height: 80px;
+
+
+     }
+
+ }
